@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: '*/1 * * * *'  # Runs daily at midnight
+    - cron: '0 0 * * *'  # Runs daily at midnight
       
 jobs:
   health-check:
