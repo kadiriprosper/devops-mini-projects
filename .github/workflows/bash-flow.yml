@@ -22,9 +22,9 @@ jobs:
 
       - name: Run Health Check Script
         run: |
-          if [ -f ./bash/health_check.sh ]; then
-            chmod +x ./bash/health_check.sh
-            sudo ./bash/health_check.sh
+          if [ -f ./week-01/health_check.sh ]; then
+            chmod +x ./week-01/health_check.sh
+            sudo ./week-01/health_check.sh
           else
             echo "Health check script not found!"
             exit 1
