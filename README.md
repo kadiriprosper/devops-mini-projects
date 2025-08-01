@@ -1,7 +1,7 @@
 # devops-mini-projects
 Mini projects from my 9-week Accelerated DevOps Bootcamp covering Linux, CI/CD, Git, containers, IaC &amp; more.
 
-# 🚀 AWS DevOps Bootcamp – Mini Projects
+# 🚀 AZURE DevOps Bootcamp – Mini Projects
 
 This repository contains 9 hands-on projects from my **9-week accelerated AWS DevOps Bootcamp**, designed to prepare for mid-to-senior-level roles in DevOps.
 

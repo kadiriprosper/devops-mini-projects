@@ -4,7 +4,7 @@
 Understand DevOps mindset, Linux CLI, Git workflows, and Bash scripting fundamentals.
 
 ## 🛠 Tools & Concepts
-- Linux (Ubuntu)
+- WSL (Ubuntu)
 - Git / GitHub
 - Bash scripting
 - GitHub Actions
@@ -21,4 +21,5 @@ Write a **bash system health check script**, push it to GitHub, and **automate i
 
 ## ✅ Lessons Learned
 *(Write what you learned this week)*
+- 
 

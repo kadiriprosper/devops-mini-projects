@@ -1,0 +1,69 @@
+Health Check started at:
+Date: Fri 01 Aug, 2025
+Time: 10:30:16 AM
+================================================================
+----------------------------------------------------------------
+📊 SYSTEM REPORT (Details)
+----------------------------------------------------------------
+TOTAL UPTIME
+Total Up Time: 23 hours:40 minutes
+
+OS INFORMATION
+NAME="Ubuntu"
+VERSION="24.04.1 LTS (Noble Numbat)"
+
+🧠 AVERAGE CPU LOAD
+Load Average: 0.52, 0.58, 0.59
+
+💾 MEMORY USAGE
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi        11Gi       4.3Gi        17Mi       223Mi       4.3Gi
+
+💾 DISK USAGE
+Filesystem     Type   Size  Used Avail Use% Mounted on
+C:\            drvfs  475G  363G  112G  77% /mnt/c
+
+⚠️ WARNING: Disk usage is above 70% (Currently at 77%). Please consider cleaning up disk space.
+
+🔍 TOP 5 CPU-CONSUMING PROCESSES
+  PID  PPID CMD                         %MEM %CPU
+ 1908  1901 /bin/bash ./health_check.sh  0.0 21.3
+ 1901  1900 /bin/bash ./health_check.sh  0.0  5.2
+ 1899   494 sudo ./health_check.sh       0.0  3.9
+ 1936  1908 ps -eo pid,ppid,cmd,%mem,%c  0.0  3.0
+ 1909  1901 tee ./../logs/system_health  0.0  1.3
+
+🔍 TOP 5 MEMORY-CONSUMING PROCESSES
+  PID  PPID CMD                         %MEM %CPU
+  494   493 -bash                        0.0  0.1
+ 1899   494 sudo ./health_check.sh       0.0  3.9
+ 1938  1908 ps -eo pid,ppid,cmd,%mem,%c  0.0  3.3
+ 1901  1900 /bin/bash ./health_check.sh  0.0  5.2
+ 1908  1901 /bin/bash ./health_check.sh  0.0 25.3
+
+🌐 NETWORK INTERFACES:
+eth0             169.254.157.228/16 fe80::19ce:b7a3:ffa3:d2ca/64 
+lo               127.0.0.1/8 ::1/128 
+wifi0            192.168.1.17/23 fe80::a255:14c9:518d:2dfc/64 
+wifi1            169.254.164.128/16 fe80::6a45:2848:be7f:d0b3/64 
+wifi2            169.254.163.43/16 fe80::55ca:2948:7b51:877/64 
+eth1             169.254.184.179/16 fe80::6123:c22:f75e:8409/64 
+
+eth0             08:92:04:27:b8:89 <> 
+lo               00:00:00:00:00:00 <LOOPBACK,UP> 
+wifi0            4c:44:5b:d5:9c:c4 <BROADCAST,MULTICAST,UP> 
+wifi1            4c:44:5b:d5:9c:c5 <> 
+wifi2            4e:44:5b:d5:9c:c4 <> 
+eth1             4c:44:5b:d5:9c:c8 <> 
+
+🔗 ACTIVE NETWORK CONNECTIONS (Top 10):
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+
+🏷️ HOSTNAME:
+NGLAL502
+----------------------------------------------------------------
+📁 Saving report to log file...
+
+✅ REPORT COMPLETED!
+📁 Log file saved to: ./../logs/system_health_.log
